@@ -78,8 +78,8 @@ margin-bottom: 4%;
 }
 
 .nav-link {
-    color: #ffffff;
-    text-decoration-line: none;
+    color: white;
+    
     font-weight: 600;
 }
 
@@ -295,7 +295,6 @@ font-size: 2em;
         color: aliceblue;
     }
 
-
     
     .solution {
         
@@ -315,14 +314,7 @@ font-size: 2em;
         align-items: center;
     }
 
-    .service-card {
-        
-       
-    }
-
-    .card-text {
-        
-    }
+    
     
     
 
@@ -373,9 +365,5 @@ font-size: 2em;
 
         background-color: darkblue;
     }
-
-
-   
-
 
 }
