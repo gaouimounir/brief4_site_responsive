@@ -1,5 +1,5 @@
 
-/***Accueil***/
+/*******************************************Accueil***/
 
 .bar{
     display: flex;
@@ -13,11 +13,20 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    color: #f68a96;
+}
+
+.logo:hover{
+    color: darkblue;
 }
 
 .textColorBlue{
      color: rgb(18, 18, 88);
      font-weight: bold;
+}
+
+.logo:hover .textColorBlue{
+    color: #f68a96;
 }
 
 .headernav{
@@ -57,7 +66,7 @@ margin-bottom: 4%;
 }
 
 
-/*  */
+/***************************************Footer********************************/
 .footer {
     width: 100%;
 }
@@ -83,7 +92,7 @@ margin-bottom: 4%;
     font-weight: 600;
 }
 
-/*   */
+/* *******************************Accueil body***************************/
 
 .block-service {
     background-color: #ffffff;
@@ -150,7 +159,7 @@ margin-bottom: 4%;
 }
 
 
-/****Mutualisé****/
+/****************************************************Mutualisé****/
 
 .corpus{
     display: flex;
@@ -224,7 +233,7 @@ margin-bottom: 4%;
     text-align: center;
 }
 
-/************/
+/********************************************************Contact**********/
 
 
 
@@ -275,7 +284,7 @@ font-size: 2em;
 }
 
 
-/* --------responsive----------- */
+/* --------------------------------------------------------responsive----------- */
 
 @media only screen and (max-width: 960px) {
 
